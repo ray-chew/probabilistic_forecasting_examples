@@ -5,4 +5,5 @@
     2. Fix the implementation of the SIR
     3. Fix ETPF 3d residual calculations
     4. Use a FORTRAN subroutine for the implicit solver
-3. Chapter 8 example 9: The matrix PP is introduced to make sure that the mean of the generated ensemble spread does not change (sum over all the ensemble members at a given spatial grid point equals zero). Is this true? Think about it.
+3. Check what is wrong with chapter 8 example 5.
+4. Chapter 8 example 9: The matrix PP is introduced to make sure that the mean of the generated ensemble spread does not change (sum over all the ensemble members at a given spatial grid point equals zero). Is this true? Think about it.
