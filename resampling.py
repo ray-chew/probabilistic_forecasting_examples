@@ -5,8 +5,11 @@ def resampling(X,w,M,J):
     wm = M*w
     wi = np.floor(wm)
     nc = np.sum(wi).astype(int)
-
-    A = np.zeros((J,nc))
+    
+    f = open("nc.txt", "a")
+    f.write("%i %i\n" %(J,nc))
+    
+    A = np.zeros((J,abs(nc)))
     X = X.reshape(J,-1)
     
     if (nc > 0):
