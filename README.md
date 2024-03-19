@@ -1,4 +1,10 @@
-# Todo:
+Examples in Python from the textbook [*Probabilistic Forecasting and Bayesian Data Assimilation*](https://www.math.uni-potsdam.de/~sreich/probabilisticForecastingAndBayesianDataassimilation.html)
+
+In November 2018, I read this textbook from cover to cover and reproduced the examples to gain an understanding of data assimilation.
+
+---
+
+### Todo:
 1. Check mean values for chap5ex17.
 2. Complete Chapter 7 example 13
     1. Implement ESRF filter
